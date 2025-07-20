@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Gerador de Senhas Seguras Online Gratuito | Crie Senhas Fortes 2025</title>
+    <meta name="description" content="🔐 Gerador de senhas seguras 100% gratuito. Crie senhas fortes com 12-50 caracteres, números, símbolos. Proteja suas contas online. Sem armazenamento, máxima privacidade.">
+    <meta name="keywords" content="gerador senha, senha segura, criar senha forte, password generator, gerador password, senha aleatória, senha criptografada, segurança digital, proteção online">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="author" content="Gerador de Senhas Seguras">
+    <meta name="language" content="Portuguese">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geradordesenhas.com/">
+    <meta property="og:title" content="Gerador de Senhas Seguras Online Gratuito | Crie Senhas Fortes">
+    <meta property="og:description" content="🔐 Gere senhas ultra seguras gratuitamente. Proteja suas contas com senhas fortes de até 50 caracteres. 100% privacidade garantida.">
+    <meta property="og:image" content="https://geradordesenhas.com/password-generator-preview.jpg">
+    <meta property="og:site_name" content="Gerador de Senhas Seguras">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://geradordesenhas.com/">
+    <meta property="twitter:title" content="Gerador de Senhas Seguras Online Gratuito">
+    <meta property="twitter:description" content="🔐 Crie senhas ultra seguras gratuitamente. Máxima proteção para suas contas online.">
+    <meta property="twitter:image" content="https://geradordesenhas.com/password-generator-preview.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://geradordesenhas.com/">
+    
+    <!-- Favicon and Icons -->
+    <link rel="shortcut icon" href="./cadeado.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Gerador de Senhas Seguras",
+        "url": "https://geradordesenhas.com",
+        "description": "Gerador gratuito de senhas seguras online. Crie senhas fortes com números, letras maiúsculas, minúsculas e símbolos especiais para proteger suas contas digitais.",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "Gerador de Senhas Seguras"
+        },
+        "featureList": [
+            "Geração de senhas de 4 a 50 caracteres",
+            "Incluir letras maiúsculas e minúsculas",
+            "Adicionar números e símbolos especiais", 
+            "Verificador de força da senha",
+            "Cópia rápida para área de transferência",
+            "100% gratuito e sem armazenamento"
+        ]
+    }
+    </script>
+    
+    <!-- Hreflang for international versions -->
+    <link rel="alternate" hreflang="pt-br" href="https://geradordesenhas.com/" />
+    <link rel="alternate" hreflang="en" href="https://geradordesenhas.com/en/" />
+    <link rel="alternate" hreflang="es" href="https://geradordesenhas.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://geradordesenhas.com/" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+
+        .breadcrumb a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .main-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+
+        .password-output {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.4em;
+            word-break: break-all;
+            margin-bottom: 20px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .password-output.has-password {
+            background: #e7f5e7;
+            border-color: #28a745;
+        }
+
+        .copy-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: #218838;
+        }
+
+        .controls {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .control-row:hover {
+            background: #e9ecef;
+        }
+
+        .control-row label {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .slider {
+            width: 200px;
+            height: 6px;
+            background: #ddd;
+            border-radius: 3px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .slider::-webkit-slider-thumb {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .generate-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .strength-meter {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .strength-weak {
+            background: #ffe6e6;
+            color: #dc3545;
+            border: 2px solid #dc3545;
+        }
+
+        .strength-medium {
+            background: #fff3cd;
+            color: #856404;
+            border: 2px solid #ffc107;
+        }
+
+        .strength-strong {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #28a745;
+        }
+
+        .content-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .content-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .content-section h3 {
+            color: #555;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .tips ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tips li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            color: #666;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+        }
+
+        .feature-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .main-card, .content-section {
+                padding: 20px;
+            }
+            
+            .slider {
+                width: 150px;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5034749367702950"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>🔐 Gerador de Senhas Seguras Online</h1>
+            <p>Crie senhas ultra fortes e únicas para proteger suas contas digitais - 100% gratuito e privado</p>
+        </header>
+
+        <main>
+            <section class="main-card" aria-labelledby="generator-title">
+                <h2 id="generator-title" class="sr-only">Gerador de Senhas</h2>
+                
+                <div class="password-output" id="passwordOutput" role="textbox" aria-live="polite" aria-label="Senha gerada">
+                    Clique em "Gerar Senha" para começar
+                </div>
+                
+                <div class="controls">
+                    <div class="control-group">
+                        <div class="control-row">
+                            <label for="length">Comprimento da senha: <span id="lengthValue">12</span> caracteres</label>
+                            <input type="range" id="length" class="slider" min="4" max="50" value="12" aria-describedby="length-help">
+                        </div>
+                        
+                        <div class="control-row">
+                            <label for="uppercase">
+                                <input type="checkbox" id="uppercase" class="checkbox" checked>
+                                Incluir letras maiúsculas (A-Z)
+                            </label>
+                        </div>
+                        
+                        <div class="control-row">
+                            <label for="lowercase">
+                                <input type="checkbox" id="lowercase" class="checkbox" checked>
+                                Incluir letras minúsculas (a-z)
+                            </label>
+                        </div>
+                        
+                        <div class="control-row">
+                            <label for="numbers">
+                                <input type="checkbox" id="numbers" class="checkbox" checked>
+                                Incluir números (0-9)
+                            </label>
+                        </div>
+                        
+                        <div class="control-row">
+                            <label for="symbols">
+                                <input type="checkbox" id="symbols" class="checkbox" checked>
+                                Incluir símbolos (!@#$%^&*)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="generate-btn" onclick="generatePassword()" aria-describedby="generate-help">
+                    🎲 Gerar Nova Senha Segura
+                </button>
+                <small id="generate-help" class="sr-only">Gera uma nova senha baseada nas configurações selecionadas</small>
+                
+                <div id="strengthMeter" class="strength-meter" style="display: none;" role="status" aria-live="polite">
+                    <div id="strengthText"></div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="content-section">
+                <h2>🚀 Por que usar nosso Gerador de Senhas?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🔒 100% Seguro</h4>
+                        <p>Senhas geradas localmente no seu navegador. Nenhum dado é enviado para servidores.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>⚡ Super Rápido</h4>
+                        <p>Gere senhas instantaneamente com até 50 caracteres de comprimento.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🎯 Personalizável</h4>
+                        <p>Escolha exatamente quais tipos de caracteres incluir na sua senha.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📱 Responsivo</h4>
+                        <p>Funciona perfeitamente em computadores, tablets e celulares.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEO Content Section -->
+            <section class="content-section">
+                <h2>Como Criar uma Senha Realmente Segura?</h2>
+                <p>Uma <strong>senha segura</strong> é sua primeira linha de defesa contra hackers e cibercriminosos. Nosso gerador de senhas online gratuito utiliza algoritmos criptográficos para criar combinações aleatórias de caracteres impossíveis de adivinhar.</p>
+                
+                <h3>Características de uma Senha Forte:</h3>
+                <p>Uma senha verdadeiramente segura deve conter pelo menos 12 caracteres e incluir uma mistura de letras maiúsculas, minúsculas, números e símbolos especiais. Quanto mais longa e complexa, mais difícil será para programas maliciosos quebrarem sua proteção.</p>
+                
+                <h3>Por que Senhas Aleatórias são Mais Seguras?</h3>
+                <p>Senhas baseadas em informações pessoais como datas de nascimento, nomes de pets ou sequências óbvias (123456, password) são extremamente vulneráveis. Nosso <strong>gerador de password</strong> cria combinações completamente aleatórias que não podem ser associadas à sua vida pessoal.</p>
+            </section>
+
+            <!-- Tips Section -->
+            <section class="content-section tips">
+                <h2>💡 Melhores Práticas de Segurança Digital</h2>
+                <ul>
+                    <li><strong>Use senhas únicas:</strong> Nunca reutilize a mesma senha em diferentes sites. Se um site for comprometido, apenas essa conta estará em risco.</li>
+                    <li><strong>Comprimento mínimo recomendado:</strong> Use pelo menos 12-16 caracteres para máxima segurança contra ataques de força bruta.</li>
+                    <li><strong>Misture todos os tipos de caracteres:</strong> Combine letras maiúsculas, minúsculas, números e símbolos especiais.</li>
+                    <li><strong>Evite informações pessoais:</strong> Não use datas de nascimento, nomes de familiares, endereços ou qualquer informação que possa ser descoberta.</li>
+                    <li><strong>Use um gerenciador de senhas:</strong> Considere ferramentas como LastPass, 1Password ou Bitwarden para armazenar suas senhas com segurança.</li>
+                    <li><strong>Ative a autenticação de dois fatores (2FA):</strong> Adicione uma camada extra de segurança sempre que possível.</li>
+                    <li><strong>Atualize regularmente:</strong> Troque suas senhas importantes a cada 3-6 meses ou imediatamente se houver suspeita de comprometimento.</li>
+                </ul>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="content-section">
+                <h2>❓ Perguntas Frequentes sobre Geradores de Senha</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">É seguro usar um gerador de senhas online?</div>
+                    <div class="faq-answer">Sim! Nosso gerador funciona inteiramente no seu navegador usando JavaScript. Nenhuma senha é enviada para nossos servidores ou armazenada em qualquer lugar. Tudo acontece localmente no seu dispositivo.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Qual o tamanho ideal para uma senha segura?</div>
+                    <div class="faq-answer">Recomendamos pelo menos 12 caracteres para contas normais e 16+ caracteres para contas críticas como email, banco ou trabalho. Quanto maior, mais segura será sua senha.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Posso confiar em senhas geradas automaticamente?</div>
+                    <div class="faq-answer">Absolutamente! Senhas geradas aleatoriamente são muito mais seguras que aquelas criadas por humanos, pois não seguem padrões previsíveis e não contêm informações pessoais.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Como devo armazenar minhas senhas geradas?</div>
+                    <div class="faq-answer">Use um gerenciador de senhas confiável ou anote em local físico seguro. Nunca salve senhas importantes em arquivos de texto simples ou navegadores compartilhados.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Com que frequência devo trocar minhas senhas?</div>
+                    <div class="faq-answer">Para contas importantes: a cada 3-6 meses. Para contas críticas (banco, email principal): consideramos trocar mensalmente. Sempre troque imediatamente se suspeitar de comprometimento.</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gerador de Senhas Seguras. Suas senhas são geradas localmente e nunca são armazenadas.</p>
+    </footer>
+
+    <script>
+        const lengthSlider = document.getElementById('length');
+        const lengthValue = document.getElementById('lengthValue');
+        const passwordOutput = document.getElementById('passwordOutput');
+        const strengthMeter = document.getElementById('strengthMeter');
+        const strengthText = document.getElementById('strengthText');
+
+        lengthSlider.addEventListener('input', function() {
+            lengthValue.textContent = this.value;
+        });
+
+        function generatePassword() {
+            const length = parseInt(lengthSlider.value);
+            const uppercase = document.getElementById('uppercase').checked;
+            const lowercase = document.getElementById('lowercase').checked;
+            const numbers = document.getElementById('numbers').checked;
+            const symbols = document.getElementById('symbols').checked;
+
+            if (!uppercase && !lowercase && !numbers && !symbols) {
+                alert('Selecione pelo menos um tipo de caractere!');
+                return;
+            }
+
+            let charset = '';
+            if (uppercase) charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            if (lowercase) charset += 'abcdefghijklmnopqrstuvwxyz';
+            if (numbers) charset += '0123456789';
+            if (symbols) charset += '!@#$%^&*()_+-=[]{}|;:,.<>?';
+
+            let password = '';
+            for (let i = 0; i < length; i++) {
+                const randomIndex = Math.floor(Math.random() * charset.length);
+                password += charset[randomIndex];
+            }
+
+            passwordOutput.textContent = password;
+            passwordOutput.classList.add('has-password');
+            
+            // Add copy button if not exists
+            if (!passwordOutput.querySelector('.copy-btn')) {
+                const copyBtn = document.createElement('button');
+                copyBtn.className = 'copy-btn';
+                copyBtn.textContent = 'Copiar';
+                copyBtn.onclick = copyPassword;
+                passwordOutput.appendChild(copyBtn);
+            }
+
+            checkStrength(password);
+            
+            // Track password generation for analytics (without storing actual password)
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_password', {
+                    'event_category': 'engagement',
+                    'password_length': length,
+                    'character_types': [uppercase, lowercase, numbers, symbols].filter(Boolean).length
+                });
+            }
+        }
+
+        function copyPassword() {
+            const password = passwordOutput.textContent.replace('Copiar', '').trim();
+            navigator.clipboard.writeText(password).then(() => {
+                const copyBtn = passwordOutput.querySelector('.copy-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = 'Copiado!';
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                }, 2000);
+                
+                // Track copy event for analytics
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'copy_password', {
+                        'event_category': 'engagement'
+                    });
+                }
+            }).catch(() => {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = password;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                const copyBtn = passwordOutput.querySelector('.copy-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = 'Copiado!';
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                }, 2000);
+            });
+        }
+
+        function checkStrength(password) {
+            let score = 0;
+            let feedback = '';
+
+            // Length check
+            if (password.length >= 16) score += 3;
+            else if (password.length >= 12) score += 2;
+            else if (password.length >= 8) score += 1;
+
+            // Character variety
+            if (/[a-z]/.test(password)) score += 1;
+            if (/[A-Z]/.test(password)) score += 1;
+            if (/[0-9]/.test(password)) score += 1;
+            if (/[^A-Za-z0-9]/.test(password)) score += 1;
+
+            // Determine strength
+            if (score <= 3) {
+                strengthMeter.className = 'strength-meter strength-weak';
+                feedback = '🔴 Senha Fraca - Use mais caracteres e tipos diferentes';
+            } else if (score <= 5) {
+                strengthMeter.className = 'strength-meter strength-medium';
+                feedback = '🟡 Senha Média - Boa proteção, mas pode melhorar';
+            } else {
+                strengthMeter.className = 'strength-meter strength-strong';
+                feedback = '🟢 Senha Muito Forte - Excelente proteção!';
+            }
+
+            strengthText.textContent = feedback;
+            strengthMeter.style.display = 'block';
+        }
+
+        // Generate initial password on page load
+        window.addEventListener('load', generatePassword);
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                generatePassword();
+            }
+        });
+    </script>
+
+    <!-- Schema.org Structured Data for FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "É seguro usar um gerador de senhas online?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim! Nosso gerador funciona inteiramente no seu navegador usando JavaScript. Nenhuma senha é enviada para nossos servidores ou armazenada em qualquer lugar. Tudo acontece localmente no seu dispositivo."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "Qual o tamanho ideal para uma senha segura?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recomendamos pelo menos 12 caracteres para contas normais e 16+ caracteres para contas críticas como email, banco ou trabalho. Quanto maior, mais segura será sua senha."
+            },
+            {
+                "@type": "Question",
+                "name": "Posso confiar em senhas geradas automaticamente?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutamente! Senhas geradas aleatoriamente são muito mais seguras que aquelas criadas por humanos, pois não seguem padrões previsíveis e não contêm informações pessoais."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como devo armazenar minhas senhas geradas?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Use um gerenciador de senhas confiável ou anote em local físico seguro. Nunca salve senhas importantes em arquivos de texto simples ou navegadores compartilhados."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Google Analytics (substitua GA_MEASUREMENT_ID pelo seu ID real) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <!-- Google Search Console Verification (substitua pelo seu código) -->
+    <meta name="google-site-verification" content="SEU_CODIGO_DE_VERIFICACAO_AQUI">
+
+    <!-- Microsoft Clarity (opcional para análise de comportamento) -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "SEU_CLARITY_ID");
+    </script>

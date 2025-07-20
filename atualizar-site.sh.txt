@@ -1,0 +1,12 @@
+#!/bin/bash
+DISTRIBUTION_ID="E1A2B3C4D5E6F7"  # Seu ID aqui
+
+# 1. Upload novo arquivo
+aws s3 cp index.html s3://gerador-de-senhas/
+
+# 2. Limpar cache do CloudFront
+aws cloudfront create-invalidation \
+    --distribution-id $DISTRIBUTION_ID \
+    --paths "/*"
+
+echo "✅ Site atualizado!"
