@@ -3,7 +3,6 @@
 Um gerador de senhas moderno, seguro e totalmente client-side, desenvolvido com foco em segurança e usabilidade.
 
 [![Deploy Status](https://img.shields.io/badge/deploy-live-brightgreen)](https://d2d7n2ooug896c.cloudfront.net/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
@@ -127,37 +126,6 @@ gerador-senhas/
 └── README.md
 ```
 
-## 🔧 Desenvolvimento Local
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/gerador-senhas.git
-
-# Entre no diretório
-cd gerador-senhas
-
-# Inicie um servidor local (Python)
-python -m http.server 8000
-
-# Ou usando Node.js
-npx http-server
-
-# Acesse http://localhost:8000
-```
-
-## 🧪 Testes
-
-```bash
-# Execute os testes unitários
-npm test
-
-# Testes de segurança
-npm run security-test
-
-# Lighthouse audit
-npm run audit
-```
-
 ## 📊 Performance
 
 - **First Contentful Paint**: < 1.5s
@@ -195,10 +163,6 @@ snyk test
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ## 🙏 Agradecimentos
 
 - [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) - Para geração segura de números aleatórios
@@ -207,9 +171,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📞 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - seu.email@gmail.com
-
-Link do Projeto: [https://github.com/seu-usuario/gerador-senhas](https://github.com/seu-usuario/gerador-senhas)
+Eduardo Ângelo - [Meu Linkedin](https://www.linkedin.com/in/eduardoangelodev/) - eduardoangelo20001@gmail.com
 
 ---
 
